@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -26,7 +26,7 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="API" Type="Folder">
-				<Item Name="Start Process.vi" Type="VI" URL="../Support/API/Start Process.vi"/>
+				<Item Name="Start Process.vi" Type="VI" URL="../support/API/Start Process.vi"/>
 				<Item Name="Stop Process.vi" Type="VI" URL="../Support/API/Stop Process.vi"/>
 				<Item Name="Update Display.vi" Type="VI" URL="../Support/API/Update Display.vi"/>
 				<Item Name="Update Position.vi" Type="VI" URL="../Support/API/Update Position.vi"/>
@@ -36,7 +36,7 @@
 				<Item Name="Quit Application.vi" Type="VI" URL="../Support/API/Quit Application.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
-				<Item Name="MHL Queue Ref Holder.vi" Type="VI" URL="../Support/MHL Queue Ref Holder.vi"/>
+				<Item Name="MHL Queue Ref Holder.vi" Type="VI" URL="../support/MHL Queue Ref Holder.vi"/>
 				<Item Name="PL Open.vi" Type="VI" URL="../Support/PL Open.vi"/>
 				<Item Name="PL Close.vi" Type="VI" URL="../Support/PL Close.vi"/>
 				<Item Name="Status Display.vi" Type="VI" URL="../Support/Status Display.vi"/>
@@ -57,8 +57,8 @@
 				<Item Name="Status Log FGV.vi" Type="VI" URL="../Support/Status Logger/Status Log FGV.vi"/>
 			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="Notifiers.lvlib" Type="Library" URL="../Support/Notifiers/Notifiers.lvlib"/>
-			<Item Name="User Event - EHL Stop.lvlib" Type="Library" URL="../Support/User Event - EHL Stop/User Event - EHL Stop.lvlib"/>
+			<Item Name="Notifiers.lvlib" Type="Library" URL="../support/Notifiers/Notifiers.lvlib"/>
+			<Item Name="User Event - EHL Stop.lvlib" Type="Library" URL="../support/User Event - EHL Stop/User Event - EHL Stop.lvlib"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
